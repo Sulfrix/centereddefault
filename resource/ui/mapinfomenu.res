@@ -13,6 +13,25 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"PaintBackgroundType" "0"
+		"fillcolor" "Blank"
+	}
+
+	"BGPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"c-250"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"500"
+		"tall"			"f0"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 127"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"MapInfoTitle"
@@ -134,12 +153,14 @@
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
-	
-	"MapInfoWatchIntro" [$WIN32]
+
+	"MapInfoContinueBind" [$WIN32]
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"r19000"
+		"xpos_lodef"			"r222"
+		"xpos_hidef"			"r232"
 		"ypos"			"r40"
 		"ypos_lodef"			"r64"
 		"ypos_hidef"			"r54"
@@ -150,6 +171,31 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
+		"labelText"		"&e"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"MenuSmallFont"
+		"fgcolor"		"Black"
+	}
+	
+	"MapInfoWatchIntro" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoWatchIntro"
+		"xpos"			"c-5000"
+		"ypos"			"r40"
+		"ypos_lodef"			"r64"
+		"ypos_hidef"			"r54"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#TF_WatchIntro"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -196,8 +242,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -230,8 +276,8 @@
 		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"

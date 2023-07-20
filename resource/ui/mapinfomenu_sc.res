@@ -13,6 +13,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor"		"Blank"
+
 	}
 	
 	"MapInfoTitle"
@@ -257,8 +259,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"

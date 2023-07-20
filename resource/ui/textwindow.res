@@ -15,6 +15,40 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
+
+	"BGPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 180"
+		"PaintBackgroundType"	"0"
+	}
+
+	"BGPanel2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"c-250"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"500"
+		"tall"			"f0"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 127"
+		"PaintBackgroundType"	"0"
+	}
 	
 	"TFMessageTitle"
 	{
@@ -78,7 +112,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
+		"bgcolor" "Black"
 	}
 	
 	"ok"
@@ -104,6 +139,30 @@
 		"default"		"1"
 		"font"			"MenuSmallFont"
 	}
+
+	"okBind"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"ok"
+		"xpos"			"r19000"
+		"ypos"			"r40"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"&e`"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"okay"
+		"default"		"1"
+		"font"			"MenuSmallFont"
+	}
 	
 	"MenuBG"
 	{
@@ -116,8 +175,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -144,13 +203,13 @@
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}						
+	}			
 	
 	"MessageTitle"
 	{

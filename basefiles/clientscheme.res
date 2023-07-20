@@ -125,7 +125,7 @@ Scheme
 		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 		
-		"HTMLBackground"						"95 92 101 255"
+		"HTMLBackground"						"95 92 101 0"
 		
 		"ItemAttribLevel"						"117 107 94 255"
 		"ItemAttribNeutral"						"235 226 202 255"
@@ -2163,7 +2163,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"36"
+				"tall"		"32"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -5622,6 +5622,12 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+		}
+
+		Fuck
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		FriendHighlightBorder

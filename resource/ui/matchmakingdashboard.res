@@ -60,12 +60,12 @@
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"p1.1"
-			"tall"			"f5"
+			"tall"			"f6"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+
+			
 			"proportionaltoparent"	"1"
-			"Alpha" "0"
+			"bgcolor_override"	"0 0 0 255"
 		}
 
 		"OuterShadow"
