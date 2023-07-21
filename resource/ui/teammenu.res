@@ -100,11 +100,12 @@
 		"fieldName" "BluCountIcon"
 		"xpos" "-8"
 		"ypos" "-5"
-		"wide" "30"
-		"tall" "30"
+		"wide" "11"
+		"tall" "22"
 		"visible" "1"
 		"enabled" "1"
 		"image"			"capture_icon_white"
+		"scaleImage" "1"
 		
 
 		"pin_to_sibling" "BluCountBG"
@@ -149,12 +150,12 @@
 		"fieldName" "RedCountIcon"
 		"xpos" "-8"
 		"ypos" "-5"
-		"wide" "30"
-		"tall" "30"
+		"wide" "11"
+		"tall" "22"
 		"visible" "1"
 		"enabled" "1"
 		"image"			"capture_icon_white"
-		
+		"scaleImage" "1"
 
 		"pin_to_sibling" "RedCountBG"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
