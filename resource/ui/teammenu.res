@@ -491,29 +491,6 @@
 		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
-
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		"model"
-		{
-			"modelname"	"models/vgui/UI_team01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_hidef" "305"
-			"origin_x_lodef" "320"
-			"origin_y" "0"
-			"origin_z" "-34"
-		}
-	}	
 	
 	"ShadedBar"
 	{
