@@ -25,9 +25,19 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Remove screenshots folder
+      - name: Remove extra files
         run: |
           rm -r screenshots
+          rm .gitattributes
+          rm .gitignore
+          rm -r .git
+          rm -r .github
+
+      - name: Tidy up
+        run: |
+          mkdir centereddefault
+          mv -r ./* centereddefault
+          echo "Move to tf/custom" > "place centereddefault in custom folder"
 
       # Runs a set of commands using the runners shell
       - name: Package artifact
