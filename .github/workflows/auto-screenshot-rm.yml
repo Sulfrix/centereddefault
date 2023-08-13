@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# Automatically make zip files of the HUD with all the github stuff removed
 
 name: CI
 
@@ -22,9 +22,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      # These don't need to be in the user's custom folder
       - name: Remove extra files
         run: |
           rm -r screenshots
@@ -32,15 +32,19 @@ jobs:
           rm .gitignore
           rm -r .git
           rm -r .github
-
+      # Put everything in a subdirectory so the user can drag and drop
+      # Note: this is a cursed way of doing this!
       - name: Tidy up
         continue-on-error: true
         run: |
           mkdir centereddefault
           mv ./* centereddefault
+      # mv will fail when attempting to put everything in the subdirectory so we do this in a seperate step
+      - name: Create hint file
+        run: |
           echo "Move to tf/custom" > "place centereddefault in custom folder"
 
-      # Runs a set of commands using the runners shell
+      # Upload artifact
       - name: Package artifact
         uses: actions/upload-artifact@v3
         with:
