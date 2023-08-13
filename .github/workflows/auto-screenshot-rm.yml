@@ -36,7 +36,7 @@ jobs:
       - name: Tidy up
         run: |
           mkdir centereddefault
-          mv -r ./* centereddefault
+          mv ./* centereddefault
           echo "Move to tf/custom" > "place centereddefault in custom folder"
 
       # Runs a set of commands using the runners shell
