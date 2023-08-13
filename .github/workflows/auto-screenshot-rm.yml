@@ -34,6 +34,7 @@ jobs:
           rm -r .github
 
       - name: Tidy up
+        continue-on-error: true
         run: |
           mkdir centereddefault
           mv ./* centereddefault
